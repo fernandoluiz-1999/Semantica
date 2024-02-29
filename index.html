@@ -8,40 +8,135 @@
     <!-- <link rel="stylesheet" href="">
     <script src=""></s/script>-->
     <title>Semântica</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- título responsável pela Seção de Informações -->
-    <h1>Título 1</h1>
-    <h2>Título 2</h2>
-    <h3>Título 3</h3>
-    <h4>Título 4</h4>
-    <h5>Título 5</h5>
-    <h6>Título 6</h6>
+    <header>
+        <h1>Título 1</h1>
+    </header>
+    
+    <main>
+        
+        <!-- título responsável pela Seção de Informações -->
+        <h1>Fernando Luiz</h1>
+        <h2>Título 2</h2>
+        <h3>Título 3</h3>
+        <h4>Título 4</h4>
+        <h5>Título 5</h5>
+        <h6>Título 6</h6>
+    
+        <!-- Criando links externos e alterando estilização com CSS inline -->
+        <a href="https://www.crunchyroll.com/pt-br" style="color:orange; text-decoration: none;">
+             entre no site de anime
+        </a>
+    
+        <br>
+    
+        <img src="./fabien-bellanger-WyfXOHgI49s-unsplash.jpg" alt="Imagem com muitos prédios com suas luzes acessas e todos estão localizados na zona norte de SP;" height="600" width="600">
+    
+        <!-- Realizando criação de listas -->
+        <ol>
+            <!-- criação dos itens -->
+            <li>Fernando</li>
+            <li>24 anos</li>
+            <li> Manaus </li>
+        </ol>
+    
+        <!-- Criação da lista não ordenada - UL -->
+        <ul>
+            <!-- Criação dos itens da lista -->
+            <li> Fernando </li>
+            <li>24 anos</li>
+            <li> Manaus </li>
+            <li> Estudante </li>
+            <li> SENAI-SP </li>
+        </ul>
+    
+    </main>
 
-    <!-- Criando links externos e alterando estilização com CSS inline -->
-    <a href="https://www.crunchyroll.com/pt-br" style="color:orange; text-decoration: none;">
-         entre no site de anime
-    </a>
+    <aside>
+        <h3>Idiomas</h3>
 
-    <br>
+        <table>
 
-    <img src="./fabien-bellanger-WyfXOHgI49s-unsplash.jpg" alt="Imagem com muitos prédios com suas luzes acessas e todos estão localizados na zona norte de SP;" height="600" width="600">
+            <tr>
+                <th>Idiomas</th>
+                <th>Nível</th>
+            </tr>
 
-    <!-- Realizando criação de listas -->
-    <ol>
-        <!-- criação dos itens -->
-        <li>Fernando</li>
-        <li>24 anos</li>
-        <li> Manaus </li>
-    </ol>
+            <tr>
+                <td>Inglês</td>
+                <td>Intermediário</td>
+            </tr>
 
-    <!-- Criação da lista não ordenada - UL -->
-    <ul>
-        <!-- Criação dos itens da lista -->
-        <li> Fernando </li>
-        <li>24 anos</li>
-        <li> Manaus </li>
-    </ul>
+            <tr>
+                <td>Espanhol</td>
+                <td>Básico</td>
+            </tr>
 
-</body>
-</html>
+        </table>
+
+    </aside>
+
+    <section>
+        <h3>Minha carreira</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, omnis! Molestias minima quas voluptate iusto aliquam dolor nemo aliquid. Laudantium maxime deleniti ad voluptate, tempora doloremque cum doloribus iste harum eos. Aperiam quasi mollitia aliquid adipisci praesentium ducimus sapiente. Ex distinctio esse aut incidunt, eum facilis dolorem similique repellendus itaque?</p> <!-- pesquisar sobre lorem ipsum -->
+    </section>
+
+    <section>
+        <h3>Meus hobbies</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quo expedita esse, asperiores molestiae laudantium earum voluptate sequi, inventore aliquam voluptas harum, rerum ipsum provident. Ratione quasi eius maiores deleniti!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt odio vero suscipit? Sint architecto itaque magni saepe veniam numquam ex iste nobis molestias cumque accusantium molestiae, eos excepturi dolores.</p>
+    </section>
+
+    <section>
+
+        <article>
+            <header>
+                <h1>Aprenda HTML</h1>
+                <p>Fernando Luiz</p>
+                <p>29 de fev 2024</p>
+            </header>
+            <main>
+                <p>Aprenda HTML consultando a documentação oficial do W3Schools e
+                    construa seu primeiro...</p>
+            </main>
+            <footer>
+                <a href="#">Continue lendo</a>
+            </footer>
+        </article>
+
+        <article>
+            <header>
+                <h1>Aprenda HTML</h1>
+                <p>Fernando Luiz</p>
+                <p>29 de fev 2024</p>
+            </header>
+            <main>
+                <p>Aprenda HTML consultando a documentação oficial do W3Schools e
+                    construa seu primeiro...</p>
+            </main>
+            <footer>
+                <a href="#">Continue lendo</a>
+            </footer>
+        </article>
+
+    </section>
+
+    <footer>
+        <address>
+            <p>SENAI Conde José Vicente de Azevedo</p>
+            <p>Rua Moreira de Godói, 226</p>
+            <p>Ipiranga - São Paulo, SP</p>
+        </address>
+
+        <div><!-- evitar uso indiscriminado-->
+            <h4>Documentações</h4>
+            <a href="https://www.w3schools.com">W3schools</a>
+            <a href="https://developer.mozilla.org/pt-BR/">MDN Web Docs</a>
+        </div>
+
+    </footer>
+
+    </body>
+    </html>
